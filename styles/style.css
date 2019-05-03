@@ -183,6 +183,39 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   width: 80%;
 }
 
+h1 {
+  font-family: 'Walter Turncoat', cursive;
+  z-index: 30;
+  color: white;
+  font-size: 8rem;
+}
+
+h2 {
+  font-family: 'Walter Turncoat', cursive;
+  z-index: 30;
+  color: white;
+  font-size: 6rem;
+}
+
+h3 {
+  font-family: 'Walter Turncoat', cursive;
+  z-index: 30;
+  color: white;
+  font-size: 4rem;
+}
+
+h4 {
+  font-family: 'Walter Turncoat', cursive;
+  z-index: 30;
+  color: white;
+  font-size: 3rem;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,22 +235,19 @@ nav ul li a {
   text-decoration: none;
 }
 
-h1 {
-  font-family: 'Walter Turncoat', cursive;
-  z-index: 30;
-  color: white;
-}
-
 header {
   height: 100vh;
   background: #03697c;
   z-index: 10;
 }
 
-.backgroundHero {
+header .backgroundHero {
   background-image: url("../assets/home-header.jpg");
   height: 70vh;
-  z-index: 20;
+  z-index: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .hero {
