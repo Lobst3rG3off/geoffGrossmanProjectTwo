@@ -183,6 +183,11 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   width: 80%;
 }
 
+nav ul li {
+  color: white;
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Walter Turncoat', cursive;
   z-index: 30;
