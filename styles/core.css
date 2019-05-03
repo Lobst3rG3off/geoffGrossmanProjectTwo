@@ -1,0 +1,13 @@
+.wrapper {
+  width: 80%;
+}
+
+h1 {
+  font-family: Walter Turncoat;
+}
+
+.background {
+  background-image: url("../assets/home-header.jpg");
+  height: 70vh;
+}
+/*# sourceMappingURL=core.css.map */
