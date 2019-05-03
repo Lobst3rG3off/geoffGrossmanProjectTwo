@@ -179,6 +179,23 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   overflow: hidden;
 }
 
+.wrapper {
+  width: 80%;
+}
+
+h1 {
+  font-family: 'Walter Turncoat', cursive;
+}
+
+header {
+  background: #03697c;
+}
+
+.backgroundHero {
+  background-image: url("../assets/home-header.jpg");
+  height: 70vh;
+}
+
 section {
   display: block;
   position: relative;
@@ -280,18 +297,5 @@ section {
   margin: 0 0 10px 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.wrapper {
-  width: 80%;
-}
-
-h1 {
-  font-family: Walter Turncoat;
-}
-
-.background {
-  background-image: url("../assets/home-header.jpg");
-  height: 70vh;
 }
 /*# sourceMappingURL=style.css.map */
