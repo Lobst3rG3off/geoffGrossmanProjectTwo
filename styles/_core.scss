@@ -6,10 +6,20 @@
 
 nav {
     ul {
+        display: flex;
         li {
-            color: white;
-            text-decoration: none;
+                justify-content: space-around;
+                list-style: none;
+                display: inline-block;
+                padding-left: 5%;
+                
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
         }
+    
     }
 
 }
