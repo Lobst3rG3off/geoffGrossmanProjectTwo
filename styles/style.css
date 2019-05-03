@@ -183,37 +183,37 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   width: 80%;
 }
 
-h1 {
+h1, h2, h3, h4 {
   font-family: 'Walter Turncoat', cursive;
   z-index: 30;
   color: white;
+}
+
+h1 {
   font-size: 8rem;
 }
 
 h2 {
-  font-family: 'Walter Turncoat', cursive;
-  z-index: 30;
-  color: white;
   font-size: 6rem;
 }
 
 h3 {
-  font-family: 'Walter Turncoat', cursive;
-  z-index: 30;
-  color: white;
   font-size: 4rem;
 }
 
 h4 {
-  font-family: 'Walter Turncoat', cursive;
-  z-index: 30;
-  color: white;
   font-size: 3rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
 }
 
 nav {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 nav ul {
@@ -252,6 +252,35 @@ header .backgroundHero {
 
 .hero {
   z-index: 30;
+}
+
+section .headings {
+  background: #03697c;
+}
+
+section .posts {
+  background: #474bb5;
+}
+
+section .middlePost {
+  background: #03697c;
+}
+
+section .fullWidthBanner {
+  background: #03697c;
+}
+
+section .fullWidthBanner .banner {
+  width: 100%;
+  background-image: url("../assets/banner.jpg");
+}
+
+section .bottomPosts {
+  background: #03697c;
+}
+
+section .gallery {
+  background: #474bb5;
 }
 
 section {
@@ -355,4 +384,11 @@ section {
   margin: 0 0 10px 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.button {
+  font-family: 'Walter Turncoat', cursive;
+  z-index: 30;
+  color: white;
+  font-size: 1rem;
 }

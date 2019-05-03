@@ -4,37 +4,39 @@
     width: 80%;
 }
 
-h1 {
+h1,h2,h3,h4 {
     font-family: 'Walter Turncoat',
         cursive;
     z-index: 30;
     color: white;
-    font-size: 8rem;
+    
+}
+
+h1 {
+font-size: 8rem;
 }
 
 h2 {
-    font-family: 'Walter Turncoat',
-    cursive;
-    z-index: 30;
-    color: white;
+    
     font-size: 6rem;
 }
 
 h3 {
-    font-family: 'Walter Turncoat',
-    cursive;
-    z-index: 30;
-    color: white;
+  
     font-size: 4rem;
 }
 
 h4 {
-    font-family: 'Walter Turncoat',
-    cursive;
-    z-index: 30;
-    color: white;
+   
     font-size: 3rem;
 }
+
+p {
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 1rem;
+}
+
 
 
 
@@ -45,6 +47,7 @@ nav {
     font-family: 'Roboto',
     sans-serif;
     font-size: 1rem;
+    font-weight: 600;
     ul {
         display: flex;
         li {
@@ -82,3 +85,31 @@ header .backgroundHero {
 .hero {
     z-index: 30;
 }
+
+section .headings {
+    background: #03697c;
+}
+
+section .posts {
+    background: #474bb5;
+}
+
+section .middlePost {
+        background: #03697c;
+}
+
+section .fullWidthBanner { 
+       background: #03697c;
+    .banner {
+        width: 100%;
+        background-image: url("../assets/banner.jpg")
+    }
+    }
+
+    section .bottomPosts {
+            background: #03697c;
+    }
+
+    section .gallery {
+        background:  #474bb5;
+    }
