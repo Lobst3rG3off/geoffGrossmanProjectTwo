@@ -310,4 +310,58 @@ top: 26px;
 }
 
 // form styling
+.contactBody {
+    background: #03697c;
+}
+
+.contactWrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main {
+position: relative;
+width: 60%;
+order: 2;
+height: 50vh;
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #474bb5;
+    -webkit-box-shadow: 21px 29px 0px 3px rgba(8, 253, 237, 1);
+    -moz-box-shadow: 21px 29px 0px 3px rgba(8, 253, 237, 1);
+    box-shadow: 21px 29px 0px 3px rgba(8, 253, 237, 1);
+position: absolute;
+bottom: 141px;
+right: 0;
+    .commentSubmit {
+        width: 100%;
+        #comment {
+            width: 100%;
+        }
+        .submit {
+            width: 100%;
+        }
+    }
+}
+
+}
+
+aside {
+    color: white;
+order: 1;
+    
+
+    .contactWrapper.socialMedia {
+        display: flex;
+flex-direction: row;
+.icon {
+    width: 25%;
+}
+    }
+
+}
 
