@@ -35,7 +35,7 @@ font-size: 6rem;
 
 h2 {
     
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 h3 {
@@ -276,3 +276,41 @@ section.fullWidthBanner {
 
     }
     
+    // Blog page
+
+header .blogHero {
+    border: 1px solid red;
+    background-image: url("../assets/contact-header.jpg");
+    height: 80vh;
+   width: 100%;
+}
+
+
+
+.wrapperHero {
+display: flex;
+width: 100%;
+position: relative;
+
+   h1 {
+       width: 50%;
+       flex-shrink: 1;
+       align-self: flex-end;
+       margin-top: 10%;
+margin-left: 10%;
+   }
+
+    .hero {
+        width: 50%;
+        flex-grow: 1;
+position: absolute;
+right: -74px;
+top: 26px;
+    
+
+    img {
+        width: 100%;
+        max-width: 600px;
+        }
+    }
+}
