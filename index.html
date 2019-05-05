@@ -7,40 +7,45 @@
     <title>FunPlace</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto|Walter+Turncoat" rel="stylesheet">
     
-    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uh3+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <!-- Nav -->
+       
+
         <div class="backgroundHero">
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+                    <!-- Nav -->
+                    <nav>
+                        <ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="/blog.html">Blog</a></li>
+                            <li><a href="/contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+<div class="wrapperHero">
 
-<h1 class="col-6">FunPlace</h1>
+<h1>FunPlace</h1>
 
 
-<div class="imageBox hero col-6">
+<div class="imageBox hero ">
 <img src="./assets/home-box-header.jpg" alt="A child skateboarding">
 </div>
 </div>
+</div>
+</div>
     </header>
-    <section class="headings">
+
+    <section class="headings ">
+        <div class="wrapper">
         <div class="topPosts">
             <div class="headingPost">
                 <div class="iconBox"><i class="fas fa-home"></i></div>
                 <h3>New Space</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sit pariatur magni molestias delectus autem nulla perferendis accusantium quia. Recusandae animi eum assumenda cupiditate unde.</p>
             </div>
-        </div>
-        <div class="topPosts">
             <div class="headingPost">
                 <div class="iconBox"><i class="fas fa-users"></i></div>
                 <h3>Community</h3>
@@ -53,37 +58,44 @@
                 <h3>Blog</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laudantium quam modi corrupti, aliquam iusto fugiat repellendus pariatur at atque iure quisquam minima laboriosam iste?</p>
             </div>
-        </div>
-        <div class="topPosts">
+        
             <div class="headingPost">
                 <div class="iconBox"><i class="fas fa-phone"></i></div>
                 <h3>Get In Touch</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur enim aliquam dolores, distinctio id libero vel amet vitae possimus quo obcaecati repudiandae earum animi commodi.</p>
+            </div>
             </div>
         </div>
     </section>
 
 <!-- posts section -->
     <section class="posts">
-<img src="./assets/left-image.jpg" alt="" class="imageBox postImage">
-    <div class="postText">
+        <div class="postImageLeftHolder">
+<img src="./assets/left-image.jpg" alt="" class="imageBox postImageLeft ">
+        </div>
+    <div class="postText post1" >
+        <div class="wrapper">
         <h3>our programs</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga non placeat sunt dicta ex nostrum aliquam autem, totam odit praesentium, voluptatum accusamus facilis vero. Officiis a nihil voluptas ipsum autem rem assumenda rerum?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, non.</p>
         <a href="" class="button">read more</a>
+        </div>
     </div>
-
-<img src="./assets/right-image.jpg" alt="" class="imageBox postImage">
-    <div class="postText">
+<div class="postImageRightHolder">
+<img src="./assets/right-image.jpg" alt="" class="imageBox postImageRight ">
+</div>
+    <div class="postText post2  ">
+        <div class="wrapper ">
         <h3>new locations</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, reiciendis. Culpa, aut deleniti distinctio velit hic necessitatibus qui ea officia veniam. Maiores atque vitae voluptas perferendis voluptate blanditiis porro eaque sequi quod nisi?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, adipisci?</p>
         <a href="" class="button">read more</a>
+        </div>
     </div>
     </section>
 
     <!-- middle content section -->
 
     <section class="middlePost">
-        <div class="middlePostText">
+        <div class="middlePostText wrapper">
             <h3>Road trips anyone?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos tempora earum distinctio! Est, pariatur numquam. Suscipit at id iste adipisci veritatis placeat fuga, repudiandae repellendus perspiciatis, blanditiis eaque voluptatum quaerat unde ad pariatur. Dolorem, libero. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem.</p>
             <a href="" class="button">find out more</a>
@@ -95,15 +107,15 @@
 
 <!-- fullwidth at the lake banner -->
     <section class="fullWidthBanner">
-<div class="banner">
 
-</div>
 
     </section>
 
 <!-- bottom posts -->
     <section class="bottomPosts">
+        <div class="wrapper wrapperBottom">
 <div class="imageBox bottomPostImage">
+
     <img src="./assets/small-box.jpg" alt="Kids playing on the steps">
 </div>
 <div class="bottomPostText">
@@ -111,12 +123,13 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sint velit enim perferendis veniam ullam amet quaerat ratione quae nesciunt. Cum saepe similique qui porro officiis dolorem, cupiditate necessitatibus minus harum fugit aliquam ullam laboriosam odit nobis nisi provident doloremque excepturi minima voluptatum? Iusto dolores quo, velit sunt fuga qui.</p>
     <a href="" class="button">find out more</a>
 </div>
+</div>
     </section>
 
 <!-- gallery -->
 
     <section class="gallery">
-<div class="imageBox gallery">
+<div class="imageBox galleryBox wrapper">
     <img src="./assets/gallery-image-1.jpg" alt="A picture of a slide">
     <img src="./assets/gallery-image-2.jpg" alt="A child poking their head up on a slide">
     <img src="./assets/gallery-image-3.jpg" alt="kids having a tug of war">
@@ -126,7 +139,9 @@
 
     
     <footer>
+        <div class="wrapper">
         <p>Copyright ©2019 HackerYou</p>
+        </div>
     </footer>
 </body>
 </html>

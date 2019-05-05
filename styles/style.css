@@ -179,41 +179,51 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   overflow: hidden;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   width: 80%;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Walter Turncoat', cursive;
-  z-index: 30;
   color: white;
 }
 
 h1 {
-  font-size: 8rem;
-}
-
-h2 {
   font-size: 6rem;
 }
 
-h3 {
+h2 {
   font-size: 4rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 h4 {
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 nav {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   font-weight: 600;
+  padding: 2% 0;
 }
 
 nav ul {
@@ -238,49 +248,204 @@ nav ul li a {
 header {
   height: 100vh;
   background: #03697c;
-  z-index: 10;
 }
 
 header .backgroundHero {
+  border: 1px solid red;
   background-image: url("../assets/home-header.jpg");
-  height: 70vh;
-  z-index: 800;
+  height: 80vh;
+  width: 100%;
+}
+
+.wrapperHero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.wrapperHero h1 {
+  width: 50%;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.wrapperHero .hero {
+  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  position: absolute;
+  right: -74px;
+  top: 26px;
+}
+
+.wrapperHero .hero img {
+  width: 100%;
+  max-width: 600px;
+}
+
+section.headings {
+  background: #03697c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 10%;
+}
+
+section.headings .topPosts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.hero {
-  z-index: 30;
+section.headings .topPosts .headingPost {
+  width: 50%;
 }
 
-section .headings {
-  background: #03697c;
+section.headings .topPosts .headingPost p {
+  width: 50%;
 }
 
-section .posts {
+.iconBox {
+  background: #08fded;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 8px;
+  width: 10%;
+  text-align: center;
+}
+
+.posts {
   background: #474bb5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10% 0;
 }
 
-section .middlePost {
-  background: #03697c;
-}
-
-section .fullWidthBanner {
-  background: #03697c;
-}
-
-section .fullWidthBanner .banner {
+.posts img {
   width: 100%;
-  background-image: url("../assets/banner.jpg");
+  max-width: 70%;
 }
 
-section .bottomPosts {
+.posts .postImageLeftHolder {
+  width: 50%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  position: relative;
+}
+
+.posts .postText {
+  width: 50%;
+}
+
+.posts .postImageLeft {
+  -webkit-box-shadow: 22px 22px 0px -5px #08fded;
+  box-shadow: 22px 22px 0px -5px #08fded;
+  position: absolute;
+  bottom: 7px;
+  left: 0;
+}
+
+.posts .postImageRight {
+  -webkit-box-shadow: -22px 22px 0px -5px #08fded;
+  box-shadow: -22px 22px 0px -5px #08fded;
+  position: absolute;
+  top: -21px;
+  left: 202px;
+  z-index: 4;
+}
+
+.posts .postImageRightHolder {
+  width: 50%;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  position: relative;
+}
+
+.posts .post1 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.posts .post2 {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+section.middlePost {
   background: #03697c;
+  padding: 10% 0;
 }
 
-section .gallery {
-  background: #474bb5;
+section.middlePost .middlePostText {
+  text-align: center;
+}
+
+section.fullWidthBanner {
+  background: #03697c;
+  background-image: url("../assets/banner.jpg");
+  width: 100%;
+  height: 45vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+section.bottomPosts {
+  background: #03697c;
+  padding: 10% 0;
+}
+
+section.bottomPosts .wrapperBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.bottomPosts .bottomPostImage {
+  width: 40%;
+}
+
+section.bottomPosts .bottomPostText {
+  width: 40%;
+}
+
+section.gallery {
+  background: #4549b3;
+  padding: 5% 0;
+}
+
+section.gallery .galleryBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.gallery .galleryBox img {
+  width: 30%;
+}
+
+footer {
+  background: #044779;
+  text-align: center;
+  width: 100%;
+  color: white;
 }
 
 section {
