@@ -320,14 +320,14 @@ top: 26px;
 
 }
 
-main {
+main.contactMain {
 position: relative;
 width: 60%;
 order: 2;
 height: 50vh;
 
 
-form {
+form.contactForm {
     display: flex;
     flex-direction: column;
     background: #474bb5;
@@ -350,7 +350,7 @@ right: 0;
 
 }
 
-aside {
+aside.contactAside {
     color: white;
 order: 1;
     
@@ -364,4 +364,39 @@ flex-direction: row;
     }
 
 }
+
+
+// blog styles
+
+header .blogHero {
+    border: 1px solid red;
+    background-image: url("../assets/blog-header.jpg");
+    height: 80vh;
+    width: 100%;
+}
+
+
+
+.blogHeroWrapper {
+    display: flex;
+    width: 100%;
+    position: relative;
+
+    h2 {
+        width: 50%;
+        flex-shrink: 1;
+        align-self: flex-end;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+    .hero {
+        width: 50%;
+        flex-grow: 1;
+        position: absolute;
+        right: -74px;
+        top: 26px;
+    }
+}
+
 
