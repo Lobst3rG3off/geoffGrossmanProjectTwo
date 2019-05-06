@@ -581,6 +581,9 @@ header .blogHero {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 main.blogMain {
@@ -638,12 +641,17 @@ aside.blogAside {
 }
 
 aside.blogAside img {
-  width: 70%;
+  width: 90%;
+  -webkit-box-shadow: 27px 20px 0px 0px #474bb5;
+  box-shadow: 27px 20px 0px 0px #474bb5;
 }
 
 aside.blogAside .asidePostHolder {
-  width: 50%;
+  width: 90%;
   background: #474bb5;
+  padding: 10% 11.5%;
+  line-height: 22px;
+  margin-left: 27px;
 }
 
 section {

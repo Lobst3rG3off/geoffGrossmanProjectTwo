@@ -393,7 +393,7 @@ header .blogHero {
 .blogWrapper {
     display: flex;
     flex-direction: row-reverse;
-    
+    justify-content: space-between;
 }
 
 main.blogMain {
@@ -450,11 +450,19 @@ aside.blogAside {
     width: 30%;
     
     img {
-        width: 70%;
+        width: 90%;
+        -webkit-box-shadow: 27px 20px 0px 0px rgba(71, 75, 181, 1);
+        -moz-box-shadow: 27px 20px 0px 0px rgba(71, 75, 181, 1);
+        box-shadow: 27px 20px 0px 0px rgba(71, 75, 181, 1);
     }
 .asidePostHolder {
- width: 50%;
+ width: 90%;
             background: #474bb5;
+            padding: 10% 11.5%;
+
+            line-height: 22px;
+
+            margin-left: 27px;
     .asidePost {
        
 
