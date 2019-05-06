@@ -526,16 +526,38 @@ main.contactMain form.contactForm {
   right: 0;
 }
 
+main.contactMain form.contactForm label {
+  visibility: hidden;
+}
+
+main.contactMain form.contactForm .nameEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+main.contactMain form.contactForm .nameEmail .email, main.contactMain form.contactForm .nameEmail .name {
+  background: #474bb5;
+}
+
 .commentSubmit {
   width: 100%;
 }
 
 .commentSubmit #comment {
   width: 100%;
+  background: #474bb5;
+  border: 1px solid white;
 }
 
 .commentSubmit .submit {
   width: 100%;
+  height: 42px;
+  margin-top: 25px;
+  background: deepskyblue;
+  color: #474bb5;
+  font-family: 'Walter Turncoat', cursive;
 }
 
 aside.contactAside {

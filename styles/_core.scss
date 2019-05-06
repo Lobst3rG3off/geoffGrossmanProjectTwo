@@ -350,7 +350,18 @@ position: absolute;
 bottom: 141px;
 right: 0;
 
+label {
+    visibility: hidden;
+}
     
+.nameEmail {
+    display: flex;
+    padding-bottom: 10px;
+
+    .email,.name {
+    background:#474bb5;
+    }
+}
 }
 
 }
@@ -359,9 +370,22 @@ right: 0;
         width: 100%;
         #comment {
             width: 100%;
+            background: #474bb5;
+            border: 1px solid white;
         }
         .submit {
             width: 100%;
+
+            height: 42px;
+
+            margin-top: 25px;
+
+            background: deepskyblue;
+
+            color: #474bb5;
+
+            font-family: 'Walter Turncoat',
+            cursive;
         }
     }
 
