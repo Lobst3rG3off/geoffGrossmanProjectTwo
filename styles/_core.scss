@@ -300,13 +300,6 @@ position: relative;
 margin-left: 10%;
    }
 
-    .hero {
-        width: 50%;
-        flex-grow: 1;
-position: absolute;
-right: -74px;
-top: 26px;
-    }
 }
 
 // form styling
@@ -390,13 +383,54 @@ header .blogHero {
         margin-left: 10%;
     }
 
-    .hero {
-        width: 50%;
-        flex-grow: 1;
-        position: absolute;
-        right: -74px;
-        top: 26px;
+    
+}
+
+.blogWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+main {
+    background: #03697c;
+    width: 70%;
+
+    .blogpostHolder {
+        position: relative;
     }
+
+    .blogPost {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+        
+form.blogForm {
+    display: flex;
+    flex-direction: column;
+    background: #474bb5;
+
+
+    .commentSubmit {
+        width: 100%;
+
+        #comment {
+            width: 100%;
+        }
+
+        .submit {
+            width: 100%;
+        }
+    }
+}
+    
+}
+
+
+aside.blogAside {
+    background: #03697c;
 }
 
 
