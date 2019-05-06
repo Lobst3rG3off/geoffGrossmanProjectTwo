@@ -193,6 +193,10 @@ section {
   width: 100%;
 }
 
+body {
+  background: #03697c;
+}
+
 h1, h2, h3, h4 {
   font-family: 'Walter Turncoat', cursive;
   color: white;
@@ -579,22 +583,29 @@ header .blogHero {
           flex-direction: row-reverse;
 }
 
-main {
+main.blogMain {
   background: #03697c;
-  width: 70%;
+  width: 60%;
 }
 
-main .blogpostHolder {
+main.blogMain .blogpostHolder {
   position: relative;
 }
 
-main .blogPost {
+main.blogMain .blogPost {
+  width: 70%;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 27%;
+  left: 485px;
 }
 
-main form.blogForm {
+main.blogMain .blogPost img {
+  width: 70%;
+  -webkit-box-shadow: -20px 22px 0px 0px #08fded;
+  box-shadow: -20px 22px 0px 0px #08fded;
+}
+
+main.blogMain form.blogForm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -603,22 +614,34 @@ main form.blogForm {
       -ms-flex-direction: column;
           flex-direction: column;
   background: #474bb5;
+  padding-bottom: 10%;
 }
 
-main form.blogForm .commentSubmit {
+main.blogMain form.blogForm .commentSubmit {
   width: 100%;
 }
 
-main form.blogForm .commentSubmit #comment {
+main.blogMain form.blogForm .commentSubmit #comment {
   width: 100%;
 }
 
-main form.blogForm .commentSubmit .submit {
+main.blogMain form.blogForm .commentSubmit .submit {
   width: 100%;
+  padding: 10%;
 }
 
 aside.blogAside {
   background: #03697c;
+  width: 30%;
+}
+
+aside.blogAside img {
+  width: 35%;
+}
+
+aside.blogAside .asidePost {
+  width: 30%;
+  background: #474bb5;
 }
 
 section {

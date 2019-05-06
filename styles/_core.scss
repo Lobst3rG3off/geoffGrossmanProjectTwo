@@ -17,6 +17,10 @@ section {
     width: 100%;
 }
 
+body {
+    background: #03697c;
+}
+
 // img {
 //     width: 100%;
 // }
@@ -392,18 +396,26 @@ header .blogHero {
     
 }
 
-main {
+main.blogMain {
     background: #03697c;
-    width: 70%;
+    width: 60%;
 
     .blogpostHolder {
         position: relative;
     }
 
     .blogPost {
+        width: 70%;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 27%;
+        left: 485px;
+
+        img {
+            width: 70%;
+            -webkit-box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
+            -moz-box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
+            box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
+        }
     }
 
         
@@ -411,6 +423,7 @@ form.blogForm {
     display: flex;
     flex-direction: column;
     background: #474bb5;
+    padding-bottom: 10%;
 
 
     .commentSubmit {
@@ -422,6 +435,7 @@ form.blogForm {
 
         .submit {
             width: 100%;
+            padding: 10%;
         }
     }
 }
@@ -431,6 +445,18 @@ form.blogForm {
 
 aside.blogAside {
     background: #03697c;
+    width: 30%;
+    
+    img {
+        width: 35%;
+    }
+
+    .asidePost {
+        width: 30%;
+        background: #474bb5;
+
+
+    }
 }
 
 
