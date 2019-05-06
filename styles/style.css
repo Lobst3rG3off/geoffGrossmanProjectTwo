@@ -1,3 +1,4 @@
+@charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block;
 }
@@ -221,6 +222,16 @@ h4 {
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 0.9rem;
+  color: white;
+}
+
+input {
+  background: #03697c;
+  border-bottom: 1px solid #08fded;
+  width: 45%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 nav {
@@ -515,15 +526,15 @@ main.contactMain form.contactForm {
   right: 0;
 }
 
-main.contactMain form.contactForm .commentSubmit {
+.commentSubmit {
   width: 100%;
 }
 
-main.contactMain form.contactForm .commentSubmit #comment {
+.commentSubmit #comment {
   width: 100%;
 }
 
-main.contactMain form.contactForm .commentSubmit .submit {
+.commentSubmit .submit {
   width: 100%;
 }
 
@@ -589,25 +600,61 @@ header .blogHero {
 main.blogMain {
   background: #03697c;
   width: 60%;
+  padding-top: 5%;
 }
 
-main.blogMain .blogpostHolder {
-  position: relative;
-  border-left: 1px solid #08fded;
-  border-bottom: 1px solid #08fded;
+main.blogMain .blogPostHolder {
+  border-left: 1px solid deepskyblue;
+  margin-top: -23px 0 0 -49px;
+  padding-left: 25px;
+  margin: -28px 0 0 -38px;
+  padding-top: 50px;
+  border-bottom: 1px solid deepskyblue;
+}
+
+main.blogMain .blogPostText {
+  padding-top: 5%;
+  line-height: 25px;
+}
+
+main.blogMain .blogPostText span {
+  display: block;
 }
 
 main.blogMain .blogPost {
   width: 70%;
   position: absolute;
   top: 27%;
-  left: 691px;
+  left: 603px;
 }
 
 main.blogMain .blogPost img {
-  width: 70%;
+  width: 79%;
   -webkit-box-shadow: -20px 22px 0px 0px #08fded;
   box-shadow: -20px 22px 0px 0px #08fded;
+}
+
+main.blogMain .commentWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main.blogMain .commentWrapper .commentBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5% 0;
+}
+
+main.blogMain .commentWrapper .commentBox .commentImageBox {
+  padding-right: 25px;
 }
 
 main.blogMain form.blogForm {
@@ -618,21 +665,37 @@ main.blogMain form.blogForm {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #474bb5;
+  background: #03697c;
   padding-bottom: 10%;
+}
+
+main.blogMain form.blogForm .nameEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5% 2%;
+}
+
+main.blogMain form.blogForm label {
+  visibility: hidden;
 }
 
 main.blogMain form.blogForm .commentSubmit {
   width: 100%;
 }
 
-main.blogMain form.blogForm .commentSubmit #comment {
+main.blogMain form.blogForm .commentSubmit backgrou
+#comment {
   width: 100%;
 }
 
 main.blogMain form.blogForm .commentSubmit .submit {
   width: 100%;
-  padding: 10%;
+  height: 42px;
+  margin-top: 25px;
+  background: deepskyblue;
+  color: #474bb5;
+  font-family: 'Walter Turncoat', cursive;
 }
 
 aside.blogAside {
@@ -652,6 +715,16 @@ aside.blogAside .asidePostHolder {
   padding: 10% 11.5%;
   line-height: 22px;
   margin-left: 27px;
+}
+
+aside.blogAside .asidePostHolder .asidePost ul {
+  color: white;
+  list-style: none;
+}
+
+aside.blogAside .asidePostHolder .asidePost ul li::before {
+  content: "•";
+  color: #08fded;
 }
 
 section {

@@ -56,6 +56,21 @@ p {
     font-family: 'Roboto',
     sans-serif;
     font-size: 0.9rem;
+    color: white;
+}
+
+input {
+       background: #03697c;
+
+       border-bottom: 1px solid #08fded;
+
+       width: 45%;
+
+       border-top: none;
+
+       border-left: none;
+
+       border-right: none;
 }
 
 
@@ -334,7 +349,13 @@ form.contactForm {
 position: absolute;
 bottom: 141px;
 right: 0;
-    .commentSubmit {
+
+    
+}
+
+}
+
+.commentSubmit {
         width: 100%;
         #comment {
             width: 100%;
@@ -343,9 +364,6 @@ right: 0;
             width: 100%;
         }
     }
-}
-
-}
 
 aside.contactAside {
     color: white;
@@ -399,37 +417,78 @@ header .blogHero {
 main.blogMain {
     background: #03697c;
     width: 60%;
+    padding-top: 5%;
 
-    .blogpostHolder {
-        position: relative;
-        border-left: 1px solid #08fded;
-        border-bottom: 1px solid #08fded;
+    .blogPostHolder {
+      
+
+            border-left: 1px solid deepskyblue;
+            margin-top: -23px 0 0 -49px;
+            padding-left: 25px;
+            margin: -28px 0 0 -38px;
+            padding-top: 50px;
+            border-bottom: 1px solid deepskyblue;
+            
+    }
+
+    .blogPostText {
+        padding-top: 5%;
+        line-height: 25px;
+
+        span {
+            display: block;
+        }
     }
 
     .blogPost {
         width: 70%;
         position: absolute;
         top: 27%;
-        left: 691px;
+        left: 603px;
+        
 
         img {
-            width: 70%;
+            width: 79%;
             -webkit-box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
             -moz-box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
             box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
         }
     }
 
+.commentWrapper {
+    display: flex;
+    flex-direction: column;
+.commentBox {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+    .commentImageBox {
+        padding-right: 25px;
+    }
+}
+}
+
         
 form.blogForm {
     display: flex;
     flex-direction: column;
-    background: #474bb5;
+    background: #03697c;
     padding-bottom: 10%;
+
+     .nameEmail {
+         display: flex;
+         padding: 5% 2%;
+     }
+
+    label {
+        visibility: hidden;
+    }
+
 
 
     .commentSubmit {
         width: 100%;
+        backgrou
 
         #comment {
             width: 100%;
@@ -437,7 +496,17 @@ form.blogForm {
 
         .submit {
             width: 100%;
-            padding: 10%;
+
+            height: 42px;
+
+            margin-top: 25px;
+
+            background: deepskyblue;
+
+            color: #474bb5;
+
+            font-family: 'Walter Turncoat',
+            cursive;
         }
     }
 }
@@ -465,12 +534,16 @@ aside.blogAside {
             margin-left: 27px;
     .asidePost {
        
-
+ ul {
+     color: white;
+         list-style: none;
+     li::before {
+         content: "•";
+         color: #08fded;
+     }
+ }
 
 
     }
 }
-   
 }
-
-
