@@ -590,13 +590,15 @@ main.blogMain {
 
 main.blogMain .blogpostHolder {
   position: relative;
+  border-left: 1px solid #08fded;
+  border-bottom: 1px solid #08fded;
 }
 
 main.blogMain .blogPost {
   width: 70%;
   position: absolute;
   top: 27%;
-  left: 485px;
+  left: 691px;
 }
 
 main.blogMain .blogPost img {
@@ -636,11 +638,11 @@ aside.blogAside {
 }
 
 aside.blogAside img {
-  width: 35%;
+  width: 70%;
 }
 
-aside.blogAside .asidePost {
-  width: 30%;
+aside.blogAside .asidePostHolder {
+  width: 50%;
   background: #474bb5;
 }
 
