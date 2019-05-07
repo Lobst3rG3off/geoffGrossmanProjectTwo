@@ -550,6 +550,8 @@ main.contactMain form.contactForm {
   position: absolute;
   bottom: 141px;
   right: 0;
+  margin: -81px;
+  padding: 5px;
 }
 
 main.contactMain form.contactForm label {
@@ -897,6 +899,7 @@ section {
   height: 40px;
   background: #08fded;
   margin: auto;
+  white-space: nowrap;
 }
 
 @media (max-width: 1000px) {
@@ -1018,5 +1021,20 @@ section {
 @media (max-width: 576px) {
   section.bottomPosts .bottomPostText p {
     margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 624px) {
+  .wrapperHero h2 {
+    width: 100%;
+  }
+  main.contactMain form.contactForm .nameEmail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main.contactMain form.contactForm .nameEmail input {
+    width: 100%;
   }
 }

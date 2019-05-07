@@ -1,0 +1,17 @@
+@media (max-width:624px)
+{
+    .wrapperHero h2 {
+
+        width: 100%;
+    }
+
+
+
+        main.contactMain form.contactForm .nameEmail {
+            flex-direction: column;
+
+            input {
+                width: 100%;
+            }
+        }
+}
