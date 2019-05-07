@@ -908,6 +908,9 @@ section {
         -ms-flex-align: center;
             align-items: center;
   }
+  section.bottomPosts .wrapperBottom .bottomPostImage {
+    width: auto;
+  }
 }
 
 @media (max-width: 929px) {
