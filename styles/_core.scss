@@ -413,9 +413,15 @@ aside.contactAside {
 order: 1;
     
 
-    .contactWrapper.socialMedia {
+
+    
+
+    .socialMedia {
         display: flex;
 flex-direction: row;
+display: flex;
+justify-content: space-evenly;
+
 .icon {
     width: 25%;
 }
