@@ -208,7 +208,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 h3 {
@@ -266,7 +266,6 @@ header {
 }
 
 header .backgroundHero {
-  border: 1px solid red;
   background-image: url("../assets/home-header.jpg");
   height: 80vh;
   width: 100%;
@@ -326,7 +325,8 @@ section.headings .topPosts .headingPost {
 }
 
 section.headings .topPosts .headingPost p {
-  width: 50%;
+  width: 85%;
+  padding-top: 3%;
 }
 
 .iconBox {
@@ -359,17 +359,35 @@ section.headings .topPosts .headingPost p {
       -ms-flex-order: 1;
           order: 1;
   position: relative;
+  margin-top: 14%;
 }
 
 .posts .postText {
   width: 50%;
 }
 
+.posts .postWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.posts .postWrapper a {
+  margin-top: 5%;
+}
+
 .posts .postImageLeft {
   -webkit-box-shadow: 22px 22px 0px -5px #08fded;
   box-shadow: 22px 22px 0px -5px #08fded;
   position: absolute;
-  bottom: 7px;
+  bottom: 55px;
   left: 0;
 }
 
@@ -377,8 +395,8 @@ section.headings .topPosts .headingPost p {
   -webkit-box-shadow: -22px 22px 0px -5px #08fded;
   box-shadow: -22px 22px 0px -5px #08fded;
   position: absolute;
-  top: -21px;
-  left: 202px;
+  top: 50px;
+  left: 200px;
   z-index: 4;
 }
 
@@ -411,6 +429,10 @@ section.middlePost .middlePostText {
   text-align: center;
 }
 
+section.middlePost .middlePostText p {
+  margin-bottom: 5%;
+}
+
 section.fullWidthBanner {
   background: #03697c;
   background-image: url("../assets/banner.jpg");
@@ -437,6 +459,10 @@ section.bottomPosts .bottomPostImage {
 
 section.bottomPosts .bottomPostText {
   width: 40%;
+}
+
+section.bottomPosts .bottomPostText p {
+  margin-bottom: 5%;
 }
 
 section.gallery {
@@ -706,8 +732,13 @@ main.blogMain form.blogForm .commentSubmit {
   width: 100%;
 }
 
-main.blogMain form.blogForm .commentSubmit backgrou
-#comment {
+main.blogMain form.blogForm .commentSubmit .blogComment#comment {
+  background: #03697c;
+  border: 1px solid deepskyblue;
+  padding: 5%;
+}
+
+main.blogMain form.blogForm .commentSubmit #comment {
   width: 100%;
 }
 
@@ -855,6 +886,11 @@ section {
 .button {
   font-family: 'Walter Turncoat', cursive;
   z-index: 30;
+  padding: 10px 20px;
   color: white;
   font-size: 1rem;
+  width: 127px;
+  height: 40px;
+  background: #08fded;
+  margin: auto;
 }

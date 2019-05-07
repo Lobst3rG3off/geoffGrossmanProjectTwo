@@ -39,7 +39,7 @@ font-size: 6rem;
 
 h2 {
     
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 h3 {
@@ -113,7 +113,6 @@ header {
 }
 
 header .backgroundHero {
-    border: 1px solid red;
     background-image: url("../assets/home-header.jpg");
     height: 80vh;
    width: 100%;
@@ -160,7 +159,8 @@ section.headings {
             width: 50%;
             
         p {
-            width: 50%;
+            width: 85%;
+            padding-top: 3%;
         }
         }
         
@@ -196,9 +196,19 @@ text-align: center;
         width: 50%;
         order: 1;
         position: relative;
+        margin-top: 14%;
     }
     .postText {
         width: 50%;
+    }
+    .postWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        a {
+            margin-top:5%;
+        }
     }
 
     .postImageLeft {
@@ -206,7 +216,7 @@ text-align: center;
 -moz-box-shadow: 22px 22px 0px -5px rgba(8,253,237,1);
 box-shadow: 22px 22px 0px -5px rgba(8,253,237,1);
 position: absolute;
-bottom: 7px;
+bottom: 55px;
 left: 0;
     }
 
@@ -217,8 +227,8 @@ left: 0;
 -moz-box-shadow: -22px 22px 0px -5px rgba(8,253,237,1);
 box-shadow: -22px 22px 0px -5px rgba(8,253,237,1);
 position: absolute;
-    top: -21px;
-    left: 202px;
+    top: 50px;
+    left: 200px;
     z-index: 4;
 }
 
@@ -241,6 +251,10 @@ section.middlePost {
         padding: 10% 0;
         .middlePostText {
             text-align: center;
+
+            p {
+                margin-bottom: 5%;
+            }
         }
 }
 
@@ -268,6 +282,10 @@ section.fullWidthBanner {
             }
 .bottomPostText {
     width: 40%;
+
+     p {
+         margin-bottom: 5%;
+     }
 }
 
     }
@@ -512,8 +530,14 @@ form.blogForm {
 
     .commentSubmit {
         width: 100%;
-        backgrou
 
+.blogComment#comment {
+    background: #03697c;
+
+    border: 1px solid deepskyblue;
+
+    padding: 5%;
+}
         #comment {
             width: 100%;
         }
