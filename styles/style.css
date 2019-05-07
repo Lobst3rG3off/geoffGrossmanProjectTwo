@@ -894,3 +894,41 @@ section {
   background: #08fded;
   margin: auto;
 }
+
+@media (max-width: 1000px) {
+  section.bottomPosts .wrapperBottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 929px) {
+  .iconBox {
+    background: #08fded;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 8px;
+    width: 15%;
+    text-align: center;
+  }
+  section.headings .topPosts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
