@@ -273,6 +273,7 @@ header .backgroundHero {
   background-image: url("../assets/home-header.jpg");
   height: 80vh;
   width: 100%;
+  background-size: cover;
 }
 
 .wrapperHero {
@@ -444,6 +445,7 @@ section.fullWidthBanner {
   height: 45vh;
   -o-object-fit: fill;
      object-fit: fill;
+  background-size: cover;
 }
 
 section.bottomPosts {
@@ -494,10 +496,10 @@ footer {
 }
 
 header .contactHero {
-  border: 1px solid red;
   background-image: url("../assets/contact-header.jpg");
   height: 80vh;
   width: 100%;
+  background-size: cover;
 }
 
 .wrapperHero {
@@ -626,8 +628,7 @@ header.blogHeader .blogHero {
   background-image: url("../assets/blog-header.jpg");
   height: 80vh;
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  background-size: cover;
 }
 
 .blogHeroWrapper {
@@ -1047,6 +1048,32 @@ section {
 
 @media (max-width: 576px) {
   section.bottomPosts .bottomPostText p {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 872px) {
+  .blogWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  aside.blogAside .asidePostHolder {
+    width: 90%;
+    background: #474bb5;
+    padding: 10% 11.5%;
+    line-height: 22px;
+    margin-left: 27px;
     margin-bottom: 10%;
   }
 }

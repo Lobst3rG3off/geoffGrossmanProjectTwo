@@ -1,3 +1,26 @@
+@media (max-width:872px) {
+    .blogWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    aside.blogAside .asidePostHolder {
+
+        width: 90%;
+        background: #474bb5;
+        padding: 10% 11.5%;
+        line-height: 22px;
+        margin-left: 27px;
+        margin-bottom: 10%;
+
+    }
+}
+
+
+
+
 @media (max-width:624px)
 {
     .wrapperHero h2 {
