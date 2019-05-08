@@ -198,7 +198,10 @@ body {
   background: #03697c;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Walter Turncoat', cursive;
   color: white;
 }
@@ -236,6 +239,7 @@ input {
 
 textarea {
   width: 100%;
+  background-color: transparent;
 }
 
 nav {
@@ -575,7 +579,8 @@ main.contactMain form.contactForm .nameEmail {
   padding-bottom: 10px;
 }
 
-main.contactMain form.contactForm .nameEmail .email, main.contactMain form.contactForm .nameEmail .name {
+main.contactMain form.contactForm .nameEmail .email,
+main.contactMain form.contactForm .nameEmail .name {
   background: #474bb5;
 }
 
@@ -1067,6 +1072,19 @@ section {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  main.blogMain form.blogForm .nameEmail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 5% 2%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main.blogMain form.blogForm .nameEmail input {
+    width: 100%;
   }
   aside.blogAside .asidePostHolder {
     width: 90%;

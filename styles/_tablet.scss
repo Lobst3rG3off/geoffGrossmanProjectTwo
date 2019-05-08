@@ -6,6 +6,19 @@
         align-items: center;
     }
 
+    main.blogMain form.blogForm .nameEmail {
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 5% 2%;
+        flex-direction: column;
+        input {
+            width: 100%;
+        }
+
+    }
+
     aside.blogAside .asidePostHolder {
 
         width: 90%;
