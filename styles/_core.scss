@@ -499,22 +499,17 @@ main.blogMain {
     }
 
     .blogPostHolder {
-
-
-        border-left: 1px solid deepskyblue;
+        border-left: 1px solid #08fded;
         margin-top: -23px 0 0 -49px;
         padding-left: 25px;
         margin: -21px 0 0 -20px;
         padding-top: 50px;
-        border-bottom: 1px solid deepskyblue;
-
+        border-bottom: 1px solid #08fded;
     }
 
     .blogPostText {
         padding-top: 5%;
         line-height: 25px;
-        // padding-left: 5%;
-
     }
 
     .blogPost {
@@ -544,14 +539,6 @@ main.blogMain {
             }
         }
     }
-
-    // .blogComment.comment {
-    //     background: #03697c;
-
-    //     border: 1px solid deepskyblue;
-
-    //     padding: 5%;
-    // }
 
 
     form.blogForm {
