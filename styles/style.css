@@ -234,6 +234,10 @@ input {
   border-right: none;
 }
 
+textarea {
+  width: 100%;
+}
+
 nav {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
@@ -745,14 +749,10 @@ main.blogMain form.blogForm .commentSubmit {
   width: 100%;
 }
 
-main.blogMain form.blogForm .commentSubmit .blogComment.comment {
-  background: #03697c;
-  border: 1px solid deepskyblue;
-  padding: 5%;
-}
-
 main.blogMain form.blogForm .commentSubmit .comment {
   width: 100%;
+  background: #03697c;
+  border: 1px solid #08fded;
 }
 
 main.blogMain form.blogForm .commentSubmit .submit {

@@ -69,6 +69,10 @@ input {
        border-right: none;
 }
 
+textarea {
+    width: 100%;
+}
+
 
 
 
@@ -524,6 +528,14 @@ main.blogMain {
 }
 }
 
+// .blogComment.comment {
+//     background: #03697c;
+
+//     border: 1px solid deepskyblue;
+
+//     padding: 5%;
+// }
+
         
 form.blogForm {
     display: flex;
@@ -545,15 +557,12 @@ form.blogForm {
     .commentSubmit {
         width: 100%;
 
-.blogComment.comment {
-    background: #03697c;
 
-    border: 1px solid deepskyblue;
-
-    padding: 5%;
-}
         .comment {
             width: 100%;
+            background: #03697c;
+
+            border: 1px solid #08fded;
         }
 
         .submit {
