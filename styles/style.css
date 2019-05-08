@@ -617,11 +617,17 @@ aside.contactAside .socialMedia .icon {
   width: 25%;
 }
 
-header .blogHero {
-  border: 1px solid red;
+header.blogHeader {
+  height: 80vh;
+  margin-bottom: -125px;
+}
+
+header.blogHeader .blogHero {
   background-image: url("../assets/blog-header.jpg");
   height: 80vh;
   width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .blogHeroWrapper {
@@ -656,7 +662,6 @@ header .blogHero {
 }
 
 main.blogMain {
-  background: #03697c;
   width: 60%;
   padding-top: 5%;
 }
@@ -669,7 +674,7 @@ main.blogMain .blogPostHolder {
   border-left: 1px solid deepskyblue;
   margin-top: -23px 0 0 -49px;
   padding-left: 25px;
-  margin: -28px 0 0 -38px;
+  margin: -21px 0 0 -20px;
   padding-top: 50px;
   border-bottom: 1px solid deepskyblue;
 }
@@ -684,7 +689,7 @@ main.blogMain .blogPost {
 }
 
 main.blogMain .blogPost img {
-  width: 79%;
+  width: 100%;
   -webkit-box-shadow: -20px 22px 0px 0px #08fded;
   box-shadow: -20px 22px 0px 0px #08fded;
 }
@@ -761,6 +766,7 @@ main.blogMain form.blogForm .commentSubmit .submit {
 aside.blogAside {
   background: #03697c;
   width: 30%;
+  margin-top: 224px;
 }
 
 aside.blogAside img {
