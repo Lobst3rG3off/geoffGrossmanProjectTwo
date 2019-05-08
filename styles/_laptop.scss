@@ -1,3 +1,19 @@
+@media(max-width: 1180) {
+    main.blogMain.blogPost {
+
+        width: auto;
+        position: relative;
+        right: 0;
+
+        img {
+            width: auto;
+        }
+
+    }
+}
+
+
+
 @media(max-width: 1000px)
 {
 section.bottomPosts .wrapperBottom {
@@ -12,6 +28,8 @@ section.bottomPosts .wrapperBottom {
         width: auto;
     }
 }
+
+
 
 }
 

@@ -657,6 +657,10 @@ main.blogMain {
   padding-top: 5%;
 }
 
+main.blogMain p {
+  margin: 10px 0 20px 0;
+}
+
 main.blogMain .blogPostHolder {
   border-left: 1px solid deepskyblue;
   margin-top: -23px 0 0 -49px;
@@ -669,10 +673,6 @@ main.blogMain .blogPostHolder {
 main.blogMain .blogPostText {
   padding-top: 5%;
   line-height: 25px;
-}
-
-main.blogMain .blogPostText span {
-  display: block;
 }
 
 main.blogMain .blogPost {
@@ -900,6 +900,17 @@ section {
   background: #08fded;
   margin: auto;
   white-space: nowrap;
+}
+
+@media (max-width: 1180) {
+  main.blogMain.blogPost {
+    width: auto;
+    position: relative;
+    right: 0;
+  }
+  main.blogMain.blogPost img {
+    width: auto;
+  }
 }
 
 @media (max-width: 1000px) {

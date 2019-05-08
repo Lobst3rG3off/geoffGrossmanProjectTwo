@@ -469,6 +469,10 @@ main.blogMain {
     width: 60%;
     padding-top: 5%;
 
+    p {
+        margin: 10px 0 20px 0;
+    }
+
     .blogPostHolder {
       
 
@@ -484,10 +488,8 @@ main.blogMain {
     .blogPostText {
         padding-top: 5%;
         line-height: 25px;
-
-        span {
-            display: block;
-        }
+        
+        
     }
 
     .blogPost {
@@ -502,6 +504,8 @@ main.blogMain {
             -webkit-box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
             -moz-box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
             box-shadow: -20px 22px 0px 0px rgba(8, 253, 237, 1);
+        
+        
         }
     }
 
