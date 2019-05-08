@@ -260,6 +260,10 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a:hover {
+  border-bottom: 2px solid goldenrod;
+}
+
 header {
   height: 100vh;
   background: #03697c;
@@ -676,10 +680,7 @@ main.blogMain .blogPostText {
 }
 
 main.blogMain .blogPost {
-  width: 70%;
-  position: absolute;
-  top: 27%;
-  left: 603px;
+  width: 100%;
 }
 
 main.blogMain .blogPost img {
