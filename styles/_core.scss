@@ -128,16 +128,15 @@ position: relative;
    h1 {
        width: 50%;
        flex-shrink: 1;
-       align-self: flex-end;
-       margin-top: 10%;
+       align-self: center;
+       margin-bottom: 10%;
 margin-left: 10%;
    }
 
     .hero {
         width: 50%;
         flex-grow: 1;
-position: absolute;
-right: -74px;
+right: 341px;
 top: 26px;
     
 
@@ -388,7 +387,7 @@ label {
 
 .commentSubmit {
         width: 100%;
-        #comment {
+        .comment {
             width: 100%;
             background: #474bb5;
             border: 1px solid white;
@@ -543,14 +542,14 @@ form.blogForm {
     .commentSubmit {
         width: 100%;
 
-.blogComment#comment {
+.blogComment.comment {
     background: #03697c;
 
     border: 1px solid deepskyblue;
 
     padding: 5%;
 }
-        #comment {
+        .comment {
             width: 100%;
         }
 
